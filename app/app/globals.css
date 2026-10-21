@@ -1,0 +1,50 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f6fb;
+  color: #172033;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #1769ff;
+  outline-offset: 2px;
+}
+
+::selection {
+  background: #cfe0ff;
+  color: #102a56;
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
